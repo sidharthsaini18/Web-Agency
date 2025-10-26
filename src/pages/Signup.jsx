@@ -24,9 +24,9 @@ const Signup = () => {
   };
 
   return (
-    <section className=" text-light py-5 min-vh-100 d-flex flex-column align-items-center">
+    <section className=" text-light min-vh-100 d-flex flex-column align-items-center">
       <Navbar />
-      <div className="container">
+      <div className="container my-5  py-5 ">
         <div className="row justify-content-center">
           <div className="col-md-6 col-lg-5">
             <div className="card bg-secondary shadow">

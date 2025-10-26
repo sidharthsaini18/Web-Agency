@@ -16,6 +16,7 @@ import {
   SiNodedotjs,
   SiBootstrap,
 } from "react-icons/si";
+import Footer from "./Footer";
 
 
 <SiReact size={40} color="white" />;
@@ -48,8 +49,8 @@ const Content = () => {
  }
 
   return (
-    <section className="page-wrapper content-section text-center my-5 py-5 px-3  ">
-      <h1 className="display-4 fw-bold text-white text-shadow ">
+    <section className="page-wrapper content-section text-center px-3  ">
+      <h1 className="display-4 fw-bold text-white text-shadow mt-5 pt-5 ">
         Welcome to Our Creative Studio
       </h1>
       <h2 className="display-6 fw-bold orange-text ">

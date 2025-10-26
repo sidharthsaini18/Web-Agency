@@ -4,12 +4,16 @@ import Footer from "../components/Footer";
 
 const About = () => {
   return (
-    <section className=" text-light py-5 mt-5">
+   
+ 
+
+    <section className=" text-light ">
+    
       <Navbar />
-      <div className="container">
+      <div className="container py-5 mt-5">
         <div className="row mb-4">
           <div className="col text-center">
-            <h1 className="display-5 fw-bold">About Sidharth Agency</h1>
+            <h1 className="display-5 fw-bold">About Cold Productions</h1>
             <p className="lead text-warning">
               Building premium web experiences with precision and trust.
             </p>
@@ -36,6 +40,7 @@ const About = () => {
       </div>
       <Footer />
     </section>
+
   );
 };
 

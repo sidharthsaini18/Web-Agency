@@ -37,9 +37,12 @@ const Mainfeatures = () => {
   ];
 
   return (
-    <section className="fixed text-light py-5 my-1 page-wrapper min-vh-100">
+  
+      
+   
+    <section className="fixed text-light  page-wrapper min-vh-100">
       <Navbar />
-      <div className="container-fluid flex-grow-1">
+      <div className="container flex-grow-1 my-5 py-5">
         <div className="text-center mb-5">
           <h1 className="display-5 fw-bold">What We Offer</h1>
           <p className="text-warning fs-5">
@@ -49,9 +52,9 @@ const Mainfeatures = () => {
 
         <div className="row g-4 m-4">
           {features.map((feature, index) => (
-            <div className="col-md-6 col-lg-4" key={index}>
-              <div className="p-4 bg-secondary h-100 rounded-4 shadow-sm">
-                <div className="mb-3">
+            <div className="col-md-6 col-lg-4 " key={index}>
+              <div className="p-3 bg-secondary h-100 rounded-4 shadow-sm">
+                <div className="mb-1">
                   <i className={`${feature.icon} fs-2 text-warning`}></i>
                 </div>
                 <h4 className="fw-semibold text-white">{feature.title}</h4>
@@ -63,6 +66,8 @@ const Mainfeatures = () => {
       </div>
       <Footer />
     </section>
+    
+
   );
 };
 

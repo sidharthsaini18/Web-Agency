@@ -1,8 +1,9 @@
 .footer {
-  background-color: #36033700;
+  background-color: #36033711;
   color: #ccc;
   padding: 3rem 2rem;
   font-family: 'Segoe UI', sans-serif;
+  backdrop-filter: blur(8px);
 }
 
 .footer-top {

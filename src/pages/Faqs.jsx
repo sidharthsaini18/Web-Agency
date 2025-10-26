@@ -32,9 +32,12 @@ const FAQs = () => {
   ];
 
   return (
-    <section className="text-light py-5">
+
+   
+
+    <section className="text-light">
       <Navbar />
-      <div className="container">
+      <div className="container  py-5 my-5">
         <div className="text-center mb-5">
           <h1 className="display-5 fw-bold">Frequently Asked Questions</h1>
           <p className="text-warning fs-5">Answers to common queries</p>

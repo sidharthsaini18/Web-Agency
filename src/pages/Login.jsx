@@ -16,7 +16,7 @@ const Login = () => {
   return (
     <section className="mt-4 text-light py-5 min-vh-100 d-flex flex-column align-items-center">
       <Navbar />
-      <div className="container">
+      <div className="container py-4 my-4">
         <div className="row justify-content-center">
           <div className="col-md-6 col-lg-5">
             <div className="card bg-secondary shadow">
