@@ -2,21 +2,22 @@ import React, { useState, useEffect } from "react";
 import logo from "../assets/logo.svg";
 import "../styling/navbar.css";
 import { Link } from 'react-router-dom';
-
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
   const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth >= 992);
+  const navigate = useNavigate();
 
   const togglemenu = () => {
     setActive(!active);
   };
   const handlelogin = () => {
-    window.location.href = "/login";
+    navigate("/login");
   }
   
   const handleSignup = () => {
-    window.location.href = "/signup";
+    navigate("/signup");
   }
 
  

@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
   const handleLogin = (e) => {
     e.preventDefault();
-    // 🔐 Add login logic here (API call, Firebase, etc.)
-    console.log("Logging in with:", email, password);
+    navigate("/")
   };
 
   return (
