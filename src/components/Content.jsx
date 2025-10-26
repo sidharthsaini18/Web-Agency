@@ -5,6 +5,7 @@ import Herosection from "../components/Herosection";
 import InfoCard from "./Infocard";
 import cardData from "../components/data.json"
 import FeatureList from "./Features";
+import { useNavigate } from "react-router-dom";
 
 import {
   SiReact,
@@ -33,6 +34,7 @@ const features = [
 ];
 
 const Content = () => {
+  const navigate = useNavigate();
   const techStack = [
     { name: "Python", icon: SiPython },
     { name: "React.js", icon: SiReact },
@@ -45,7 +47,7 @@ const Content = () => {
   ];
 
  const  handleclick =()=>{
-    window.location.href = "/pricing";
+  navigate("/pricing");
  }
 
   return (
