@@ -1,0 +1,27 @@
+.content-section {
+  background-color: rgba(37, 37, 37, 0.26);
+  backdrop-filter: blur(6px);
+  color: white;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.orange-text {
+  color: orange;
+  text-shadow: 2px 2px 6px rgba(29, 29, 29, 0.5);
+
+
+}
+.text-shadow {
+  text-shadow: 2px 2px 6px rgba(29, 29, 29, 0.5);
+}
+.btn-width-15 {
+  width: 15%;
+}
+.img-shadow {
+  box-shadow: rgba(147, 143, 143, 0.359) 0px 0px 0px 15px;
+
+ 
+}

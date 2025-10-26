@@ -1,0 +1,31 @@
+.feature-list-container {
+  /* background-color: #11111122; */
+  padding: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-item {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  position: relative;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.feature-label {
+  display: inline-block;
+}
+
+.tooltip-box {
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  pointer-events: none;
+  transition: transform 0.1s ease, opacity 0.1s ease;
+}
